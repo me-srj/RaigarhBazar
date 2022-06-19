@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testing</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$.ajax({
+				url: "https://localhost/book_selling/Admin",
+				type: "POST",
+				data: {
+					type: 1,
+				},
+				success: function(dataResult){
+					console.error(dataResult);
+					
+				}
+			});
+</script>
+</head>
+<body id="maindiv">
+
+</body>
+</html>
